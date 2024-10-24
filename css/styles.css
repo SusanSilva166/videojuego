@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box; 
+}
+body{
+    background-color: rgb(226, 99, 99);
+}
+
+.text{
+    text-align: center;
+    text-decoration-color: crimson;
+}
+.Fondogame{
+    background-image: url(/imagenes/fondogame.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 80%;
+    height: 70vh;
+}
+.carro{
+    position: absolute; 
+    top: 100px; 
+    left: 100px; 
+    width: 150px; 
+    height: auto; 
+}
